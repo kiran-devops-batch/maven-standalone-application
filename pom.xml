@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://65.2.189.160:9000/</sonar.host.url>
+		<sonar.host.url>http://3.109.183.42:9000/</sonar.host.url>
 		<sonar.login>squ_43ec550d14e8f1475dd7908778f4e1e0f651d6fd</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
@@ -40,13 +40,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>kiranbelchada Releases Nexus Repository</name>
-	      <url>http://13.232.117.211:8081/repository/walmart-release/</url>
+	      <url>http://13.127.123.64:8081/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>kiranbelchada Snapshot Nexus Repository </name>
-	      <url>http://13.232.117.211:8081/repository/walmart-snapshot/</url>
+	      <url>http://13.127.123.64:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
